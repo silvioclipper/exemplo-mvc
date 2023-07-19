@@ -2,7 +2,8 @@
     "name": "silvio.azevedo/mvc",
     "description": "Entendimento sobre MVC",
     "require": {
-        "twig/twig": "^3.6"
+        "twig/twig": "^3.6",
+        "vlucas/phpdotenv": "^5.5"
     },
     "license": "MIT",
     "autoload": {
