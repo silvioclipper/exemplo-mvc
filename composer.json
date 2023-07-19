@@ -1,0 +1,20 @@
+{
+    "name": "silvio.azevedo/mvc",
+    "description": "Entendimento sobre MVC",
+    "require": {
+        "twig/twig": "^3.6"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/",
+            "core\\": "core/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Silvio Rodrigues Azevedo",
+            "email": "silvioclipper@gmail.com"
+        }
+    ]
+}
