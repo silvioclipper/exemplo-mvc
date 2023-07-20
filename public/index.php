@@ -1,7 +1,13 @@
 <?php
 
-use app\classes\Uri;
+use core\Controller;
 
 require '../bootstrap.php';
 
-dd(Uri::uri());
+try {
+    $controller = new Controller();
+    $controller = $controller->load();
+    dd($controller);
+} catch (\Exception $e) {
+    $e->getMessage();
+}
